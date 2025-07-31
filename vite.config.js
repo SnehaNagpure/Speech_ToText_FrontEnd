@@ -2,12 +2,12 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react-swc'
 
 
-// https://vite.dev/config/
+
 export default defineConfig({
   plugins: [react()],
   esbuild: {
     loader: 'jsx',
-    include: /src\/.*\.js$/, //  Allow JSX in .js files under /src
+    include: /src\/.*\.[jt]sx?$/, // Allow JSX in .js, .jsx, .ts, .tsx files under /src
   }
   ,
   server: {
