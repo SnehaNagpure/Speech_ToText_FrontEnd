@@ -7,7 +7,8 @@ import Upload from './pages/Upload';
 import { AuthProvider } from './authContext';
 import PrivateRoute from './components/PrivateRoute';
 import { Toaster } from 'react-hot-toast'; 
-
+const dotenv = require('dotenv');
+dotenv.config(); 
 export default function App() {
   return (
       <><Toaster position="top-center" reverseOrder={false} />
