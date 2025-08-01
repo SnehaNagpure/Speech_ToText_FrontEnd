@@ -30,7 +30,7 @@ export default function SignIn() {
       {/* Left Image Section */}
       <div
         className="hidden md:block w-full md:w-1/2 bg-cover bg-center"
-        style={{ backgroundImage: `url('/src/assets/mic.jpg')` }}
+        style={{ backgroundImage: `url('/mic.jpg')` }}
       ></div>
 
       {/* Right Form Section */}
